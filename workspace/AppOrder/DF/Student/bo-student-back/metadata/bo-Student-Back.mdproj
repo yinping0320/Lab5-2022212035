@@ -1,0 +1,22 @@
+{
+  "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Back",
+  "Name" : "bo-Student-Back",
+  "ProjectFileName" : null,
+  "ProjectPath" : null,
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.AppOrder.DF.Student.Student.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ ],
+  "ProjectRefs" : null,
+  "ExternalRefs" : null,
+  "MdpkgRefs" : null,
+  "MavenPackageRefs" : [ ],
+  "CsprojAssemblyName" : null,
+  "ID" : "f639b3a6-37bd-4733-9ce1-0b3dd198f414"
+}

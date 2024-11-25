@@ -1,0 +1,15 @@
+{
+  "AppCode" : "AppOrder",
+  "ServiceUnitCode" : "DF",
+  "BizobjectCode" : "Course",
+  "BizobjectID" : "179802e9-90af-1c0e-2d4d-033d9e8c470a",
+  "ProjectNameSpace" : "Inspur.GS.AppOrder.DF.Course.Course.Front",
+  "SuDeploymentPath" : "apps/apporder/df",
+  "MetadataProjectName" : "bo-Course-Front",
+  "MetadataPackageName" : "Inspur.GS.AppOrder.DF.Course.Course.Front",
+  "SuConfigDeploymentPath" : null,
+  "ProjectType" : "frontend",
+  "ProjectExtendItem" : [ {
+    "codelanguage" : "java"
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "NameSpace" : "Inspur.GS.AppOrder.DF.Course.Course.Back",
+  "Name" : "bo-Course-Back",
+  "ProjectFileName" : null,
+  "ProjectPath" : null,
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.AppOrder.DF.Course.Course.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ ],
+  "ProjectRefs" : null,
+  "ExternalRefs" : null,
+  "MdpkgRefs" : null,
+  "MavenPackageRefs" : [ ],
+  "CsprojAssemblyName" : null,
+  "ID" : "572d280d-062d-4258-adc7-11b11f8b6702"
+}

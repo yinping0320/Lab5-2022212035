@@ -1,0 +1,263 @@
+{
+  "Header" : {
+    "Code" : "StudentLookup",
+    "Type" : "HelpMetadata",
+    "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+    "CertId" : null,
+    "Name" : "学生帮助",
+    "FileName" : "StudentLookup.hlp",
+    "BizobjectID" : "c0617927-8dda-a090-388e-11571a04defa",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "c75a4adc-e6bc-4e89-b7ae-0c1728163909",
+    "IsTranslating" : false
+  },
+  "Refs" : [ {
+    "DependentMetadata" : {
+      "ID" : "b4e7800b-05ec-4ab8-a53c-857cde325f90",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+      "Code" : "StudentLookup_hlp",
+      "Name" : "学生帮助_ViewObject",
+      "Type" : "GSPViewModel",
+      "BizobjectID" : "c0617927-8dda-a090-388e-11571a04defa"
+    }
+  }, {
+    "DependentMetadata" : {
+      "ID" : "6736b5a1-0fc3-4859-883e-abf59286377e",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+      "Code" : "StudentLookup.hlp",
+      "Name" : "StudentLookup.hlp",
+      "Type" : "ResourceMetadata",
+      "BizobjectID" : "c0617927-8dda-a090-388e-11571a04defa"
+    }
+  } ],
+  "Content" : {
+    "code" : "StudentLookup",
+    "name" : "学生帮助",
+    "version" : "0.0.2",
+    "id" : "c75a4adc-e6bc-4e89-b7ae-0c1728163909",
+    "title" : "学生帮助",
+    "idField" : "id",
+    "idFieldName" : "主键",
+    "textField" : "studentName",
+    "textFieldName" : "姓名",
+    "valueField" : "id",
+    "valueFieldName" : "主键",
+    "displayType" : "List",
+    "description" : "",
+    "dataSource" : {
+      "columns" : [ {
+        "field" : "studentName",
+        "title" : "姓名",
+        "width" : 100,
+        "fieldPath" : "StudentName",
+        "fieldType" : "StringType",
+        "supportSearch" : true,
+        "align" : "left",
+        "formatter" : null,
+        "sortable" : false,
+        "order" : null,
+        "precision" : 0,
+        "hAlign" : "left"
+      }, {
+        "field" : "studentNo",
+        "title" : "学号",
+        "width" : 100,
+        "fieldPath" : "StudentNo",
+        "fieldType" : "StringType",
+        "supportSearch" : true,
+        "align" : "left",
+        "formatter" : null,
+        "sortable" : false,
+        "order" : null,
+        "precision" : 0,
+        "hAlign" : "left"
+      } ],
+      "sourceType" : "BE",
+      "sourcePath" : "AppOrder/DF/Student/bo-student-back/metadata/be/Student.be",
+      "sourceName" : "学生",
+      "sourceId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+      "uri" : "AppOrder/DF/Student/bo-student-front/metadata/lookups/StudentLookup_hlp.vo",
+      "vmCode" : "Inspur.GS.AppOrder.DF.Student.Student.Front.Vo.StudentLookup_hlp",
+      "voSourceId" : "b4e7800b-05ec-4ab8-a53c-857cde325f90",
+      "conditions" : [ ],
+      "sorts" : [ ],
+      "pageInfo" : {
+        "pageList" : [ 10, 20, 30, 50 ],
+        "pageSize" : 20,
+        "pageIndex" : 0,
+        "enablePager" : true
+      },
+      "treeInfo" : {
+        "loadDataType" : "async",
+        "layerType" : "pathcode",
+        "dataField" : "",
+        "pathField" : "path",
+        "layerField" : "layer",
+        "isDetailField" : "isDetail",
+        "onlySelectLeaf" : false,
+        "parentField" : "parentElement",
+        "treeDataIsInit" : false
+      }
+    },
+    "navigation" : null,
+    "languages" : null,
+    "schema" : {
+      "main" : {
+        "eapiId" : null,
+        "eapiCode" : null,
+        "eapiName" : null,
+        "eapiNameSpace" : null,
+        "voPath" : null,
+        "voNameSpace" : null,
+        "name" : "学生帮助_ViewObject",
+        "id" : "b4e7800b-05ec-4ab8-a53c-857cde325f90",
+        "sourceUri" : null,
+        "extendProperties" : {
+          "enableStdTimeFormat" : true
+        },
+        "variables" : [ ],
+        "sourceType" : "vo",
+        "entities" : [ {
+          "name" : "学生",
+          "id" : "be4688cb-3b5a-4145-9470-0577f2130df9",
+          "type" : {
+            "$type" : "EntityType",
+            "fields" : [ {
+              "$type" : "SimpleField",
+              "name" : "主键",
+              "id" : "06448b59-e12c-4551-a926-47b3301423bd_ID",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "path" : "ID",
+              "code" : "ID",
+              "originalId" : "06448b59-e12c-4551-a926-47b3301423bd",
+              "label" : "id",
+              "bindingField" : "id",
+              "bindingPath" : "id",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "版本",
+              "id" : "70c396b4-f2d4-40e7-be39-9a832a3ad3bb_Version",
+              "type" : {
+                "$type" : "DateTimeType"
+              },
+              "path" : "Version",
+              "code" : "Version",
+              "originalId" : "70c396b4-f2d4-40e7-be39-9a832a3ad3bb",
+              "label" : "version",
+              "bindingField" : "version",
+              "bindingPath" : "version",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "学号",
+              "id" : "53389815-e519-4a2d-bba1-71ac5b8f9c4a_StudentNo",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "path" : "StudentNo",
+              "code" : "StudentNo",
+              "originalId" : "53389815-e519-4a2d-bba1-71ac5b8f9c4a",
+              "label" : "studentNo",
+              "bindingField" : "studentNo",
+              "bindingPath" : "studentNo",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "姓名",
+              "id" : "819a93b8-dcf3-41f4-9f6c-5924ca447741_StudentName",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "path" : "StudentName",
+              "code" : "StudentName",
+              "originalId" : "819a93b8-dcf3-41f4-9f6c-5924ca447741",
+              "label" : "studentName",
+              "bindingField" : "studentName",
+              "bindingPath" : "studentName",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "性别",
+              "id" : "a874b80b-42be-456d-b8ef-b2cc9629526c_Gender",
+              "type" : {
+                "$type" : "EnumType",
+                "valueType" : {
+                  "$type" : "StringType",
+                  "length" : 36,
+                  "name" : "String",
+                  "displayName" : "字符串"
+                },
+                "enumValues" : [ {
+                  "disabled" : false,
+                  "name" : "男",
+                  "value" : "male"
+                }, {
+                  "disabled" : false,
+                  "name" : "女",
+                  "value" : "female"
+                } ]
+              },
+              "path" : "Gender",
+              "code" : "Gender",
+              "originalId" : "a874b80b-42be-456d-b8ef-b2cc9629526c",
+              "label" : "gender",
+              "bindingField" : "gender",
+              "bindingPath" : "gender",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "出生日期",
+              "id" : "e860235c-86df-4fce-b544-33e474116c9d_Birthday",
+              "type" : {
+                "$type" : "DateType"
+              },
+              "path" : "Birthday",
+              "code" : "Birthday",
+              "originalId" : "e860235c-86df-4fce-b544-33e474116c9d",
+              "label" : "birthday",
+              "bindingField" : "birthday",
+              "bindingPath" : "birthday",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "地区",
+              "id" : "a85da9e6-8ce0-48dc-a068-b5e165296d13_Area",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "path" : "Area",
+              "code" : "Area",
+              "originalId" : "a85da9e6-8ce0-48dc-a068-b5e165296d13",
+              "label" : "area",
+              "bindingField" : "area",
+              "bindingPath" : "area",
+              "parentPath" : ""
+            } ],
+            "entities" : [ ],
+            "primary" : "id",
+            "name" : "Student",
+            "displayName" : "学生"
+          },
+          "code" : "Student",
+          "label" : "students"
+        } ],
+        "code" : "StudentLookup_hlp"
+      }
+    },
+    "initDataSource" : true,
+    "createTime" : "2024-11-24 19:27:00"
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "AppOrder/DF/Student/bo-student-front/metadata/lookups",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

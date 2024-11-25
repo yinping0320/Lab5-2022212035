@@ -1,0 +1,67 @@
+{
+  "Header" : {
+    "Code" : "predefinePageflow",
+    "Type" : "PageFlowMetadata",
+    "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+    "CertId" : null,
+    "Name" : "predefinePageflow",
+    "FileName" : "predefinePageflow.pf",
+    "BizobjectID" : "c0617927-8dda-a090-388e-11571a04defa",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "7ce2d91f-1a79-4938-8a5f-83d3e8e8bc67",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "id" : "7ce2d91f-1a79-4938-8a5f-83d3e8e8bc67",
+    "project" : {
+      "name" : "bo-student-front"
+    },
+    "pages" : [ {
+      "id" : "bebb71d5-88d0-486f-9a65-b56d35820bd7",
+      "code" : "StudentForm",
+      "name" : "学生表单",
+      "fileName" : "StudentForm.frm",
+      "relativePath" : "AppOrder/DF/Student/bo-student-front/metadata/components",
+      "formUri" : null,
+      "routeUri" : "StudentForm",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    }, {
+      "id" : "61c6222a-7441-4d97-8a21-2de057119e58",
+      "code" : "StudentList",
+      "name" : "学生列表",
+      "fileName" : "StudentList.frm",
+      "relativePath" : "AppOrder/DF/Student/bo-student-front/metadata/components",
+      "formUri" : "61c6222a-7441-4d97-8a21-2de057119e58",
+      "routeUri" : "StudentList",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    } ],
+    "entry" : "StudentForm",
+    "routes" : null,
+    "appCode" : "StudentMrg",
+    "appName" : "学生管理",
+    "publishes" : [ {
+      "id" : "5de762c3-b292-4ba3-aa0b-6dd8aa63f6c0",
+      "entry" : "bebb71d5-88d0-486f-9a65-b56d35820bd7",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "c211fb50-9b82-4948-ad10-12998a463e4e",
+      "entry" : "61c6222a-7441-4d97-8a21-2de057119e58",
+      "type" : null,
+      "processCategory" : null
+    } ]
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "AppOrder/DF/Student/bo-student-front/metadata/route",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

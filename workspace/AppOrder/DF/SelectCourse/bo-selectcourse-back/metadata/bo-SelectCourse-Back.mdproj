@@ -1,0 +1,54 @@
+{
+  "NameSpace" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Back",
+  "Name" : "bo-SelectCourse-Back",
+  "ProjectFileName" : "bo-SelectCourse-Back.mdproj",
+  "ProjectPath" : "AppOrder/DF/SelectCourse/bo-selectcourse-back/metadata",
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ {
+    "Name" : "Inspur.GS.AppOrder.DF.Student.Student.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  }, {
+    "Name" : "Inspur.GS.AppOrder.DF.Course.Course.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  } ],
+  "ProjectRefs" : [ {
+    "Name" : "Inspur.GS.AppOrder.DF.Student.Student.Back",
+    "ProjectPath" : "../../../../AppOrder/DF/Student/bo-student-back"
+  }, {
+    "Name" : "Inspur.GS.AppOrder.DF.Course.Course.Back",
+    "ProjectPath" : "../../../../AppOrder/DF/Course/bo-course-back"
+  } ],
+  "ExternalRefs" : null,
+  "MdpkgRefs" : null,
+  "MavenPackageRefs" : [ {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "apporder-df-student-student-back-api",
+    "Version" : "m0.1.0-SNAPSHOT",
+    "MetadataPackageName" : "Inspur.GS.AppOrder.DF.Student.Student.Back"
+  }, {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "apporder-df-course-course-back-api",
+    "Version" : "m0.1.0-SNAPSHOT",
+    "MetadataPackageName" : "Inspur.GS.AppOrder.DF.Course.Course.Back"
+  } ],
+  "CsprojAssemblyName" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Back",
+  "ID" : "31e13b04-3819-4fd4-a9b2-50803529831e"
+}

@@ -1,0 +1,15 @@
+{
+  "AppCode" : "AppOrder",
+  "ServiceUnitCode" : "DF",
+  "BizobjectCode" : "Classes",
+  "BizobjectID" : "fdf10c41-551e-1cba-b9af-7b0ef3fc05a3",
+  "ProjectNameSpace" : "Inspur.GS.AppOrder.DF.Classes.Classes.Back",
+  "SuDeploymentPath" : "apps/apporder/df",
+  "MetadataProjectName" : "bo-Classes-Back",
+  "MetadataPackageName" : "Inspur.GS.AppOrder.DF.Classes.Classes.Back",
+  "SuConfigDeploymentPath" : null,
+  "ProjectType" : "backend",
+  "ProjectExtendItem" : [ {
+    "codelanguage" : "java"
+  } ]
+}

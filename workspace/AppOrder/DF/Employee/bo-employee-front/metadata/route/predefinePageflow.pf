@@ -1,0 +1,52 @@
+{
+  "Header" : {
+    "Code" : "predefinePageflow",
+    "Type" : "PageFlowMetadata",
+    "NameSpace" : "Inspur.GS.AppOrder.DF.Employee.Employee.Front",
+    "CertId" : null,
+    "Name" : "predefinePageflow",
+    "FileName" : "predefinePageflow.pf",
+    "BizobjectID" : "9840e5b7-e61c-bb93-ad7a-e477b36521de",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "8d34bfa2-061a-4cef-995c-d68bc6dc2b29",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "id" : "8d34bfa2-061a-4cef-995c-d68bc6dc2b29",
+    "project" : {
+      "name" : "bo-employee-front"
+    },
+    "pages" : [ {
+      "id" : "2ecf6c21-6680-446e-847b-b636aa2c7ef2",
+      "code" : "EmployCard",
+      "name" : "行政人员维护",
+      "fileName" : "EmployCard.frm",
+      "relativePath" : "AppOrder/DF/Employee/bo-employee-front/metadata/components",
+      "formUri" : null,
+      "routeUri" : "EmployCard",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    } ],
+    "entry" : "EmployCard",
+    "routes" : null,
+    "appCode" : "EmployCard",
+    "appName" : "行政人员维护",
+    "publishes" : [ {
+      "id" : "d3afa7b4-aaea-4a8c-a97e-35886eee95be",
+      "entry" : "2ecf6c21-6680-446e-847b-b636aa2c7ef2",
+      "type" : null,
+      "processCategory" : null
+    } ]
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "AppOrder/DF/Employee/bo-employee-front/metadata/route",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

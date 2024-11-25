@@ -1,0 +1,19 @@
+#Last modified on: Mon Nov 25 11:46:27 GMT+08:00 2024
+#Mon Nov 25 11:46:27 GMT+08:00 2024
+metadata/components/CourseForm.frm=a895ba935c76e207c8429cb436325d58f93a0fad
+metadata/lookups=896a2e0cdc01ea25255286a5fc7ecde312de92a7
+metadata/components/CourseList_frm.vo.res=469d68b892eb8a61f432434be2f9dc168a7abb0c
+metadata/components/CourseForm.frm.res=baebebb691f39043ba8a62f2215998ff0efdcc26
+metadata/lookups/CourseLookup.hlp=3068cd290b47c3960f880ee41315b1ccef62e105
+metadata/route/predefinePageflow.pf=6e18b78e9551d27af303f52367287fff3d981866
+metadata/components/CourseList.frm.res=e61b43d5b89a9560f04c1a3ece1c5653097c6312
+metadata/components=1bfab41f463a83e41325128290f478716071388b
+metadata/components/CourseList.frm=8d0c3da1343b8bd0f44cedd1bb37e0da0fd108fd
+metadata/components/CourseForm_frm.vo=c5adac5d6171126256161df1236ccb60de1bafae
+metadata/components/CourseList_frm.vo=96354b23bf223b14bd856aa9b2e3c1adaad3acb8
+metadata/route=f92b6bf584b286c640cb1cc6350ab63daf5a49ce
+metadata/components/CourseForm_frm.vo.res=66e2952505ac989a8695474591f9194fd11a464f
+metadata/eapi/CourseForm_frm.eapi=8be290e2bd30fe1f38f9204ec4968f97176ea864
+metadata/eapi/CourseList_frm.eapi=1e1ede7a16fa80226cd29bf592c854382b236005
+metadata/eapi=ef2ce9172852b6c506bd3c3055434e56cbcf2250
+metadata/lookups/CourseLookup_hlp.vo=f34c2a18cccda3a3c72dc7c1f7c86717b8b9cca4

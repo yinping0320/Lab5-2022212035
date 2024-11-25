@@ -1,0 +1,84 @@
+{
+  "Header" : {
+    "Code" : "StudentList_frm",
+    "Type" : "StateMachine",
+    "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+    "CertId" : null,
+    "Name" : "学生列表_frm",
+    "FileName" : "StudentList_frm.sm",
+    "BizobjectID" : "c0617927-8dda-a090-388e-11571a04defa",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "51c442f3-7095-4ef4-b788-2a2d324eaadb",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "renderState" : {
+      "canView" : {
+        "condition" : [ {
+          "lBracket" : "",
+          "source" : "state",
+          "compare" : "===",
+          "target" : "'init'",
+          "relation" : "",
+          "rBracket" : ""
+        } ],
+        "name" : "查看",
+        "description" : "是否允许查看"
+      },
+      "canRemove" : {
+        "condition" : [ {
+          "lBracket" : "",
+          "source" : "state",
+          "compare" : "===",
+          "target" : "'init'",
+          "relation" : "",
+          "rBracket" : ""
+        } ],
+        "name" : "删除",
+        "description" : ""
+      },
+      "canEdit" : {
+        "condition" : [ {
+          "lBracket" : "",
+          "source" : "state",
+          "compare" : "===",
+          "target" : "'init'",
+          "relation" : "",
+          "rBracket" : ""
+        } ],
+        "name" : "编辑",
+        "description" : ""
+      },
+      "canAdd" : {
+        "condition" : [ {
+          "lBracket" : "",
+          "source" : "state",
+          "compare" : "===",
+          "target" : "'init'",
+          "relation" : "",
+          "rBracket" : ""
+        } ],
+        "name" : "新增",
+        "description" : ""
+      }
+    },
+    "state" : [ {
+      "state" : "init",
+      "name" : "初始",
+      "description" : "处于初始状态"
+    } ],
+    "initialState" : "init",
+    "action" : { }
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "AppOrder/DF/Student/bo-student-front/metadata/components",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

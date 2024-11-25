@@ -1,0 +1,84 @@
+{
+  "Header" : {
+    "Code" : "CourseList_frm",
+    "Type" : "StateMachine",
+    "NameSpace" : "Inspur.GS.AppOrder.DF.Course.Course.Front",
+    "CertId" : null,
+    "Name" : "课程列表_frm",
+    "FileName" : "CourseList_frm.sm",
+    "BizobjectID" : "179802e9-90af-1c0e-2d4d-033d9e8c470a",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "e4bebf0b-df9e-4979-b476-d47cf14fd869",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "renderState" : {
+      "canView" : {
+        "condition" : [ {
+          "lBracket" : "",
+          "source" : "state",
+          "compare" : "===",
+          "target" : "'init'",
+          "relation" : "",
+          "rBracket" : ""
+        } ],
+        "name" : "查看",
+        "description" : "是否允许查看"
+      },
+      "canRemove" : {
+        "condition" : [ {
+          "lBracket" : "",
+          "source" : "state",
+          "compare" : "===",
+          "target" : "'init'",
+          "relation" : "",
+          "rBracket" : ""
+        } ],
+        "name" : "删除",
+        "description" : ""
+      },
+      "canEdit" : {
+        "condition" : [ {
+          "lBracket" : "",
+          "source" : "state",
+          "compare" : "===",
+          "target" : "'init'",
+          "relation" : "",
+          "rBracket" : ""
+        } ],
+        "name" : "编辑",
+        "description" : ""
+      },
+      "canAdd" : {
+        "condition" : [ {
+          "lBracket" : "",
+          "source" : "state",
+          "compare" : "===",
+          "target" : "'init'",
+          "relation" : "",
+          "rBracket" : ""
+        } ],
+        "name" : "新增",
+        "description" : ""
+      }
+    },
+    "state" : [ {
+      "state" : "init",
+      "name" : "初始",
+      "description" : "处于初始状态"
+    } ],
+    "initialState" : "init",
+    "action" : { }
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "AppOrder/DF/Course/bo-course-front/metadata/components",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

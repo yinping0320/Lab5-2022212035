@@ -1,0 +1,233 @@
+{
+  "Header" : {
+    "Code" : "CourseLookup",
+    "Type" : "HelpMetadata",
+    "NameSpace" : "Inspur.GS.AppOrder.DF.Course.Course.Front",
+    "CertId" : null,
+    "Name" : "课程帮助",
+    "FileName" : "CourseLookup.hlp",
+    "BizobjectID" : "179802e9-90af-1c0e-2d4d-033d9e8c470a",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "b413ee73-1806-4a13-af74-d2d24f1c7d20",
+    "IsTranslating" : false
+  },
+  "Refs" : [ {
+    "DependentMetadata" : {
+      "ID" : "8bda7fcd-5028-4905-b766-c291df2a9ee7",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.AppOrder.DF.Course.Course.Front",
+      "Code" : "CourseLookup_hlp",
+      "Name" : "课程帮助_ViewObject",
+      "Type" : "GSPViewModel",
+      "BizobjectID" : "179802e9-90af-1c0e-2d4d-033d9e8c470a"
+    }
+  }, {
+    "DependentMetadata" : {
+      "ID" : "c19882a2-0e00-42c2-b34c-6e2eb54c0b74",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.AppOrder.DF.Course.Course.Front",
+      "Code" : "CourseLookup.hlp",
+      "Name" : "CourseLookup.hlp",
+      "Type" : "ResourceMetadata",
+      "BizobjectID" : "179802e9-90af-1c0e-2d4d-033d9e8c470a"
+    }
+  } ],
+  "Content" : {
+    "code" : "CourseLookup",
+    "name" : "课程帮助",
+    "version" : "0.0.2",
+    "id" : "b413ee73-1806-4a13-af74-d2d24f1c7d20",
+    "title" : "课程帮助",
+    "idField" : "id",
+    "idFieldName" : "主键",
+    "textField" : "courseName",
+    "textFieldName" : "课程名称",
+    "valueField" : "id",
+    "valueFieldName" : "主键",
+    "displayType" : "List",
+    "description" : "",
+    "dataSource" : {
+      "columns" : [ {
+        "field" : "courseName",
+        "title" : "课程名称",
+        "width" : 100,
+        "fieldPath" : "CourseName",
+        "fieldType" : "StringType",
+        "supportSearch" : true,
+        "align" : "left",
+        "formatter" : null,
+        "sortable" : false,
+        "order" : null,
+        "precision" : 0,
+        "hAlign" : "left"
+      }, {
+        "field" : "courseId",
+        "title" : "课程ID",
+        "width" : 100,
+        "fieldPath" : "CourseId",
+        "fieldType" : "StringType",
+        "supportSearch" : true,
+        "align" : "left",
+        "formatter" : null,
+        "sortable" : false,
+        "order" : null,
+        "precision" : 0,
+        "hAlign" : "left"
+      }, {
+        "field" : "capacity",
+        "title" : "容量",
+        "width" : 100,
+        "fieldPath" : "Capacity",
+        "fieldType" : "StringType",
+        "supportSearch" : true,
+        "align" : "left",
+        "formatter" : null,
+        "sortable" : false,
+        "order" : null,
+        "precision" : 0,
+        "hAlign" : "left"
+      } ],
+      "sourceType" : "BE",
+      "sourcePath" : "AppOrder/DF/Course/bo-course-back/metadata/be/Course.be",
+      "sourceName" : "课程",
+      "sourceId" : "1ec586c8-5fa6-4772-b60e-f54044b99ccf",
+      "uri" : "AppOrder/DF/Course/bo-course-front/metadata/lookups/CourseLookup_hlp.vo",
+      "vmCode" : "Inspur.GS.AppOrder.DF.Course.Course.Front.Vo.CourseLookup_hlp",
+      "voSourceId" : "8bda7fcd-5028-4905-b766-c291df2a9ee7",
+      "conditions" : [ ],
+      "sorts" : [ ],
+      "pageInfo" : {
+        "pageList" : [ 10, 20, 30, 50 ],
+        "pageSize" : 20,
+        "pageIndex" : 0,
+        "enablePager" : true
+      },
+      "treeInfo" : {
+        "loadDataType" : "async",
+        "layerType" : "pathcode",
+        "dataField" : "",
+        "pathField" : "path",
+        "layerField" : "layer",
+        "isDetailField" : "isDetail",
+        "onlySelectLeaf" : false,
+        "parentField" : "parentElement",
+        "treeDataIsInit" : false
+      }
+    },
+    "navigation" : null,
+    "languages" : null,
+    "schema" : {
+      "main" : {
+        "eapiId" : null,
+        "eapiCode" : null,
+        "eapiName" : null,
+        "eapiNameSpace" : null,
+        "voPath" : null,
+        "voNameSpace" : null,
+        "name" : "课程帮助_ViewObject",
+        "id" : "8bda7fcd-5028-4905-b766-c291df2a9ee7",
+        "code" : "CourseLookup_hlp",
+        "extendProperties" : {
+          "enableStdTimeFormat" : true
+        },
+        "sourceType" : "vo",
+        "variables" : [ ],
+        "entities" : [ {
+          "name" : "课程",
+          "id" : "2c45bf73-6c5a-4f75-a522-ff9aa3a86a22",
+          "type" : {
+            "$type" : "EntityType",
+            "fields" : [ {
+              "$type" : "SimpleField",
+              "name" : "主键",
+              "id" : "de1e5f18-21ac-4f2e-8887-094e005342ae_ID",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "path" : "ID",
+              "code" : "ID",
+              "bindingField" : "id",
+              "bindingPath" : "id",
+              "originalId" : "de1e5f18-21ac-4f2e-8887-094e005342ae",
+              "label" : "id",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "版本",
+              "id" : "4f12be73-a5c4-4e2d-9d34-3e9116108e02_Version",
+              "type" : {
+                "$type" : "DateTimeType"
+              },
+              "path" : "Version",
+              "code" : "Version",
+              "bindingField" : "version",
+              "bindingPath" : "version",
+              "originalId" : "4f12be73-a5c4-4e2d-9d34-3e9116108e02",
+              "label" : "version",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "课程ID",
+              "id" : "a263cae4-b478-4f77-99bb-8202399af8d6_CourseId",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "path" : "CourseId",
+              "code" : "CourseId",
+              "bindingField" : "courseId",
+              "bindingPath" : "courseId",
+              "originalId" : "a263cae4-b478-4f77-99bb-8202399af8d6",
+              "label" : "courseId",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "课程名称",
+              "id" : "f297fb9d-f919-4a09-964a-bf0db18ff54e_CourseName",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "path" : "CourseName",
+              "code" : "CourseName",
+              "bindingField" : "courseName",
+              "bindingPath" : "courseName",
+              "originalId" : "f297fb9d-f919-4a09-964a-bf0db18ff54e",
+              "label" : "courseName",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "name" : "容量",
+              "id" : "26223904-31a5-4bb1-ba5e-961aaf78720b_Capacity",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "path" : "Capacity",
+              "code" : "Capacity",
+              "bindingField" : "capacity",
+              "bindingPath" : "capacity",
+              "originalId" : "26223904-31a5-4bb1-ba5e-961aaf78720b",
+              "label" : "capacity",
+              "parentPath" : ""
+            } ],
+            "primary" : "id",
+            "entities" : [ ],
+            "name" : "Course",
+            "displayName" : "课程"
+          },
+          "code" : "Course",
+          "label" : "courses"
+        } ],
+        "sourceUri" : null
+      }
+    },
+    "initDataSource" : true,
+    "createTime" : "2024-11-25 11:46:27"
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "AppOrder/DF/Course/bo-course-front/metadata/lookups",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

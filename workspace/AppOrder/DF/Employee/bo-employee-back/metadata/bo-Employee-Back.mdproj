@@ -1,0 +1,22 @@
+{
+  "NameSpace" : "Inspur.GS.AppOrder.DF.Employee.Employee.Back",
+  "Name" : "bo-Employee-Back",
+  "ProjectFileName" : null,
+  "ProjectPath" : null,
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.AppOrder.DF.Employee.Employee.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ ],
+  "ProjectRefs" : null,
+  "ExternalRefs" : null,
+  "MdpkgRefs" : null,
+  "MavenPackageRefs" : [ ],
+  "CsprojAssemblyName" : null,
+  "ID" : "981cb8fd-a290-4741-8582-f489c1a41ee7"
+}

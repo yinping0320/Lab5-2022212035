@@ -1,0 +1,211 @@
+{
+  "Header" : {
+    "Code" : "StudentForm_frm",
+    "Type" : "GSPViewModel",
+    "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+    "CertId" : null,
+    "Name" : "学生表单_frm",
+    "FileName" : "StudentForm_frm.vo",
+    "BizobjectID" : "c0617927-8dda-a090-388e-11571a04defa",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "2e35d9a7-3882-4442-a1b0-b2caeb30176b",
+    "IsTranslating" : false
+  },
+  "Refs" : [ {
+    "DependentMetadata" : {
+      "ID" : "d4f9069b-9def-4e02-932f-139532c4a224",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Back",
+      "Code" : "Student",
+      "Name" : "学生",
+      "Type" : "GSPBusinessEntity",
+      "BizobjectID" : "c0617927-8dda-a090-388e-11571a04defa"
+    }
+  }, {
+    "DependentMetadata" : {
+      "ID" : "67265452-a117-4c0b-a309-8fad118b2cca",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+      "Code" : "StudentForm_frm.vo",
+      "Name" : "StudentForm_frm.vo",
+      "Type" : "ResourceMetadata",
+      "BizobjectID" : "c0617927-8dda-a090-388e-11571a04defa"
+    }
+  } ],
+  "Content" : {
+    "ID" : "2e35d9a7-3882-4442-a1b0-b2caeb30176b",
+    "Code" : "StudentForm_frm",
+    "Name" : "学生表单_frm",
+    "GeneratingAssembly" : "Inspur.GS.AppOrder.DF.Student.Student.Front.Vo",
+    "IsUseNamespaceConfig" : true,
+    "IsSimplifyGen" : true,
+    "MainObject" : {
+      "ID" : "13771ee2-72cd-4847-ba90-8474a3894470",
+      "Code" : "Student",
+      "Name" : "学生",
+      "I18nResourceInfoPrefix" : "Inspur.GS.AppOrder.DF.Student.Student.Front.Vo.StudentForm_frm.Student",
+      "ContainElements" : [ {
+        "ID" : "d24ba669-2fb7-4ba1-9097-016f3865aadd",
+        "LabelID" : "ID",
+        "ChildAssociations" : [ ],
+        "Code" : "ID",
+        "Name" : "主键",
+        "MDataType" : "String",
+        "Length" : 36,
+        "IsRequire" : true,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+          "TargetObjId" : "8a6b6f9e-ef89-486e-a257-4a233d7ffb46",
+          "TargetObjectId" : "a9a1196d-d866-4532-beb2-cda9d8a7bca5",
+          "TargetElementId" : "8a6b6f9e-ef89-486e-a257-4a233d7ffb46"
+        }
+      }, {
+        "ID" : "e80a909d-d207-4aed-a61e-f8f246e03e8d",
+        "LabelID" : "Version",
+        "ChildAssociations" : [ ],
+        "Code" : "Version",
+        "Name" : "版本",
+        "MDataType" : "DateTime",
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+          "TargetObjId" : "9e4df351-db25-4311-a033-864222f6162e",
+          "TargetObjectId" : "a9a1196d-d866-4532-beb2-cda9d8a7bca5",
+          "TargetElementId" : "9e4df351-db25-4311-a033-864222f6162e"
+        }
+      }, {
+        "ID" : "fbcd895c-ac1f-49f3-b2a8-827a9d85786a",
+        "LabelID" : "StudentNo",
+        "ChildAssociations" : [ ],
+        "Code" : "StudentNo",
+        "Name" : "学号",
+        "MDataType" : "String",
+        "Length" : 36,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+          "TargetObjId" : "137bc75b-3cd5-48dd-a25d-9c23b25d69a5",
+          "TargetObjectId" : "a9a1196d-d866-4532-beb2-cda9d8a7bca5",
+          "TargetElementId" : "137bc75b-3cd5-48dd-a25d-9c23b25d69a5"
+        }
+      }, {
+        "ID" : "17a893e7-6b84-4e0c-bca0-388d8c1d78da",
+        "LabelID" : "StudentName",
+        "ChildAssociations" : [ ],
+        "Code" : "StudentName",
+        "Name" : "姓名",
+        "MDataType" : "String",
+        "Length" : 36,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+          "TargetObjId" : "c5d87d50-66f7-4acb-901e-88d41550b0ed",
+          "TargetObjectId" : "a9a1196d-d866-4532-beb2-cda9d8a7bca5",
+          "TargetElementId" : "c5d87d50-66f7-4acb-901e-88d41550b0ed"
+        }
+      }, {
+        "ID" : "5775e785-c250-4615-87da-4b3821c94d82",
+        "LabelID" : "Gender",
+        "ChildAssociations" : [ ],
+        "Code" : "Gender",
+        "Name" : "性别",
+        "ObjectType" : "Enum",
+        "MDataType" : "String",
+        "Length" : 36,
+        "EnableRtrim" : true,
+        "EnumIndexType" : 1,
+        "ContainEnumValues" : [ {
+          "I18nResourceInfoPrefix" : "Inspur.GS.AppOrder.DF.Student.Student.Front.Vo.StudentForm_frm.Student.Gender.male",
+          "Index" : 0,
+          "IsDefaultEnum" : true,
+          "StringIndex" : "male",
+          "Value" : "male",
+          "Name" : "男"
+        }, {
+          "I18nResourceInfoPrefix" : "Inspur.GS.AppOrder.DF.Student.Student.Front.Vo.StudentForm_frm.Student.Gender.female",
+          "Index" : 1,
+          "IsDefaultEnum" : false,
+          "StringIndex" : "female",
+          "Value" : "female",
+          "Name" : "女"
+        } ],
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+          "TargetObjId" : "f6dc51eb-689f-4609-b77f-4179ae634273",
+          "TargetObjectId" : "a9a1196d-d866-4532-beb2-cda9d8a7bca5",
+          "TargetElementId" : "f6dc51eb-689f-4609-b77f-4179ae634273"
+        }
+      }, {
+        "ID" : "1f3cfe10-c3b4-4b83-8033-a76bb3f89c4a",
+        "LabelID" : "Birthday",
+        "ChildAssociations" : [ ],
+        "Code" : "Birthday",
+        "Name" : "出生日期",
+        "MDataType" : "Date",
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+          "TargetObjId" : "3f5855fb-67cc-4d26-b097-d5f4065e0b57",
+          "TargetObjectId" : "a9a1196d-d866-4532-beb2-cda9d8a7bca5",
+          "TargetElementId" : "3f5855fb-67cc-4d26-b097-d5f4065e0b57"
+        }
+      }, {
+        "ID" : "d27dadec-8ce3-484f-bd8d-e7cdf2b4525c",
+        "LabelID" : "Area",
+        "ChildAssociations" : [ ],
+        "Code" : "Area",
+        "Name" : "地区",
+        "MDataType" : "String",
+        "Length" : 36,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+          "TargetObjId" : "a40e493b-9269-439e-a012-a549c37b6e06",
+          "TargetObjectId" : "a9a1196d-d866-4532-beb2-cda9d8a7bca5",
+          "TargetElementId" : "a40e493b-9269-439e-a012-a549c37b6e06"
+        }
+      } ],
+      "RefObjectName" : "1fe21dd1-6dce-4d4a-b10d-c13892653737",
+      "ColumnGenerateID" : {
+        "ColumnParameters" : [ ],
+        "ElementID" : "d24ba669-2fb7-4ba1-9097-016f3865aadd",
+        "GenerateType" : "Guid"
+      },
+      "BelongModelID" : "2e35d9a7-3882-4442-a1b0-b2caeb30176b",
+      "Mapping" : {
+        "MapType" : "BEObject",
+        "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+        "TargetObjId" : "a9a1196d-d866-4532-beb2-cda9d8a7bca5"
+      }
+    },
+    "Variables" : {
+      "ID" : "ae851886-eab3-43c4-85af-dec56aa30b11",
+      "Code" : "StudentForm_frmVariable",
+      "Name" : "学生表单_frm变量",
+      "I18nResourceInfoPrefix" : ""
+    },
+    "ConvertMsg" : false,
+    "Mapping" : {
+      "MapType" : "BizEntity",
+      "TargetMetadataId" : "d4f9069b-9def-4e02-932f-139532c4a224",
+      "TargetObjId" : "d4f9069b-9def-4e02-932f-139532c4a224"
+    },
+    "ExtendProperties" : { }
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "AppOrder/DF/Student/bo-student-front/metadata/components",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

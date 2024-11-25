@@ -1,0 +1,78 @@
+{
+  "NameSpace" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Front",
+  "Name" : "bo-SelectCourse-Front",
+  "ProjectFileName" : "bo-SelectCourse-Front.mdproj",
+  "ProjectPath" : "AppOrder/DF/SelectCourse/bo-selectcourse-front/metadata",
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Front",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ {
+    "Name" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  }, {
+    "Name" : "Inspur.GS.AppOrder.DF.Course.Course.Front",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  }, {
+    "Name" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  } ],
+  "ProjectRefs" : [ {
+    "Name" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Back",
+    "ProjectPath" : "../../../../AppOrder/DF/SelectCourse/bo-selectcourse-back"
+  }, {
+    "Name" : "Inspur.GS.AppOrder.DF.Student.Student.Front",
+    "ProjectPath" : "../../../../AppOrder/DF/Student/bo-student-front"
+  }, {
+    "Name" : "Inspur.GS.AppOrder.DF.Course.Course.Front",
+    "ProjectPath" : "../../../../AppOrder/DF/Course/bo-course-front"
+  } ],
+  "ExternalRefs" : null,
+  "MdpkgRefs" : [ {
+    "Name" : "Inspur.GS.Gsp.Web.WebCmp",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "generation"
+  } ],
+  "MavenPackageRefs" : [ {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "apporder-df-selectcourse-selectcourse-back-api",
+    "Version" : "m0.1.0-SNAPSHOT",
+    "MetadataPackageName" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Back"
+  }, {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "apporder-df-student-student-front-api",
+    "Version" : "m0.1.0-SNAPSHOT",
+    "MetadataPackageName" : "Inspur.GS.AppOrder.DF.Student.Student.Front"
+  }, {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "apporder-df-course-course-front-api",
+    "Version" : "m0.1.0-SNAPSHOT",
+    "MetadataPackageName" : "Inspur.GS.AppOrder.DF.Course.Course.Front"
+  } ],
+  "CsprojAssemblyName" : "Inspur.GS.AppOrder.DF.SelectCourse.SelectCourse.Front",
+  "ID" : "5f53409e-b55d-4930-b495-614f670f1681"
+}

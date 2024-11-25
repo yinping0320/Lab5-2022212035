@@ -1,0 +1,120 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "bo-employee-front": {
+      "root": "projects/bo-employee-front/",
+      "sourceRoot": "projects/bo-employee-front/src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "targets": {
+        "build": {
+          "builder": "@farris/farris-rollup:build",
+          "options": {
+            "format": "system",
+            "outputPath": "dist-rollup/bo-employee-front",
+            "ngcOut": "out-tsc/app/projects/bo-employee-front",
+            "excludeNgFactory": true,
+            "index": "projects/bo-employee-front/src/index.rollup.html",
+            "importmap": "/platform/runtime/common/web/runtime.common.manifest.json?v=1732433839821",
+            "tsConfig": "projects/bo-employee-front/tsconfig.app.json",
+            "entry": {
+              "main": {
+                "entry": "src/main.js",
+                "sourceMaps": false
+              },
+              "employcard": {
+                "entry": "src/app/employcard/employcard.module.ngfactory.js",
+                "sourceMaps": false,
+                "output": "employcard"
+              }
+            },
+            "uglify": false,
+            "hash": false,
+            "libs": {},
+            "serve": false,
+            "visualize": false,
+            "libsPath": "D:/workspace/node_modules/@farris/farris-rollup/src/build/libsWithNgFactory.json",
+            "linkedNodeModules": "D:/workspace/node_modules",
+            "assets": [],
+            "i18n": {
+              "projects/bo-employee-front/src/app/employcard/i18n": "dist-rollup/bo-employee-front/employcard/i18n",
+              "projects/bo-employee-front/src/app/employcard/expressions": "dist-rollup/bo-employee-front/employcard/expressions",
+              "projects/bo-employee-front/src/app/employcard/metadata": "dist-rollup/bo-employee-front/employcard",
+              "projects/bo-employee-front/src/app/employcard/services/dist-rollup": "dist-rollup/bo-employee-front/employcard/services"
+            }
+          },
+          "configurations": {
+            "production": {
+              "importmap": "/platform/runtime/common/web/runtime.common.manifest.json?v=1732433839821",
+              "optimization": false,
+              "buildOptimizer": false,
+              "outputHashing": "none",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": true,
+              "showCircularDependencies": false,
+              "aot": true,
+              "extractLicenses": false,
+              "statsJson": false,
+              "progress": false,
+              "vendorChunk": true
+            },
+            "ci": {
+              "importmap": "/platform/runtime/common/web/runtime.common.manifest.json",
+              "libsPath": "请手工修改,参考示例：/builds/webadp/front-project-ci/node_modules/@farris/farris-rollup/src/build/libsWithNgFactory.json",
+              "linkedNodeModules": "请手工修改，参考示例：/builds/webadp/front-project-ci/node_modules",
+              "optimization": false,
+              "buildOptimizer": false,
+              "outputHashing": "none",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": true,
+              "showCircularDependencies": false,
+              "aot": true,
+              "extractLicenses": false,
+              "statsJson": false,
+              "progress": false,
+              "vendorChunk": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "bo-employee-front:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "bo-employee-front:build:production"
+            },
+            "ci": {
+              "importmap": "/platform/runtime/common/web/runtime.common.manifest.json",
+              "libsPath": "请手工修改,参考示例：/builds/webadp/front-project-ci/node_modules/@farris/farris-rollup/src/build/libsWithNgFactory.json",
+              "linkedNodeModules": "请手工修改，参考示例：/builds/webadp/front-project-ci/node_modules",
+              "optimization": false,
+              "buildOptimizer": false,
+              "outputHashing": "none",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": true,
+              "showCircularDependencies": false,
+              "aot": true,
+              "extractLicenses": false,
+              "statsJson": false,
+              "progress": false,
+              "vendorChunk": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "bo-employee-front"
+}

@@ -1,0 +1,67 @@
+{
+  "Header" : {
+    "Code" : "predefinePageflow",
+    "Type" : "PageFlowMetadata",
+    "NameSpace" : "Inspur.GS.AppOrder.DF.Classes.Classes.Front",
+    "CertId" : null,
+    "Name" : "predefinePageflow",
+    "FileName" : "predefinePageflow.pf",
+    "BizobjectID" : "fdf10c41-551e-1cba-b9af-7b0ef3fc05a3",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "6ddf0419-c4dc-4d34-b685-4bf5a912a914",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "id" : "6ddf0419-c4dc-4d34-b685-4bf5a912a914",
+    "project" : {
+      "name" : "bo-classes-front"
+    },
+    "pages" : [ {
+      "id" : "a3c1b720-662c-4b67-a75e-23242fe3fa42",
+      "code" : "ClassesForm",
+      "name" : "班级表单",
+      "fileName" : "ClassesForm.frm",
+      "relativePath" : "AppOrder/DF/Classes/bo-classes-front/metadata/components",
+      "formUri" : null,
+      "routeUri" : "ClassesForm",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    }, {
+      "id" : "3ede41eb-1514-400b-81d4-fa5f6f5a9fee",
+      "code" : "ClassesList",
+      "name" : "班级列表",
+      "fileName" : "ClassesList.frm",
+      "relativePath" : "AppOrder/DF/Classes/bo-classes-front/metadata/components",
+      "formUri" : "3ede41eb-1514-400b-81d4-fa5f6f5a9fee",
+      "routeUri" : "ClassesList",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    } ],
+    "entry" : "ClassesForm",
+    "routes" : null,
+    "appCode" : "Classes",
+    "appName" : "班级管理",
+    "publishes" : [ {
+      "id" : "688dd175-04f5-441e-ae86-f42f64c2f40f",
+      "entry" : "a3c1b720-662c-4b67-a75e-23242fe3fa42",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "4cb4a49e-501f-49b4-96ce-3ffcd0bc4f66",
+      "entry" : "3ede41eb-1514-400b-81d4-fa5f6f5a9fee",
+      "type" : null,
+      "processCategory" : null
+    } ]
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "AppOrder/DF/Classes/bo-classes-front/metadata/route",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

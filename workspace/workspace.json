@@ -1,0 +1,183 @@
+{
+  "Version" : "1.0.1",
+  "EnvironmentSetting" : {
+    "Environment" : {
+      "DevRootPath" : "D:/workspace"
+    },
+    "MetadataIndexServer" : {
+      "Ip" : "10.110.85.182",
+      "Port" : "5002"
+    },
+    "Deployment" : [ {
+      "Name" : "current server",
+      "Port" : 0,
+      "DebugPort" : 0,
+      "ServerPath" : "",
+      "Id" : "fa3f0fb3-e8fa-4c13-83d6-c085f2ad2872",
+      "Tags" : null,
+      "ProcessID" : 0,
+      "ProcessName" : "",
+      "Status" : "IsRunning",
+      "TechStack" : null,
+      "MockItem" : null,
+      "DbServer" : "",
+      "DbPort" : null,
+      "DbDatabase" : "",
+      "DbUserName" : "",
+      "DbPassword" : "",
+      "DbType" : 0,
+      "Type" : "local",
+      "default" : true
+    } ],
+    "TechnologyStack" : null,
+    "MavenDebugMode" : false,
+    "Vcs" : {
+      "Name" : null,
+      "Password" : null
+    },
+    "extractRelativeDependencyMode" : "NOT_EXTRACT_DEPEND"
+  },
+  "DebugServerInfo" : [ {
+    "Name" : "current server",
+    "Port" : 5200,
+    "DebugPort" : 0,
+    "ServerPath" : "",
+    "Id" : "d02a8aad-3500-449e-bd34-d36e99df192a",
+    "Tags" : null,
+    "ProcessID" : 13776,
+    "ProcessName" : "",
+    "Status" : "IsRunning",
+    "TechStack" : null,
+    "MockItem" : null,
+    "DbServer" : "",
+    "DbPort" : null,
+    "DbDatabase" : "",
+    "DbUserName" : "",
+    "DbPassword" : "",
+    "DbType" : 2,
+    "Type" : "local",
+    "default" : true
+  } ],
+  "ProjectConfiguration" : [ {
+    "Name" : "bo-Student-Back",
+    "WsId" : null,
+    "Path" : "/AppOrder/DF/Student/bo-student-back",
+    "Description" : "",
+    "Type" : "gs",
+    "Mixins" : [ ],
+    "Attributes" : { },
+    "Source" : {
+      "Type" : null,
+      "Location" : null,
+      "Parameters" : null
+    },
+    "Problems" : [ ],
+    "Links" : [ ]
+  }, {
+    "Name" : "bo-Student-Front",
+    "WsId" : null,
+    "Path" : "/AppOrder/DF/Student/bo-student-front",
+    "Description" : "",
+    "Type" : "gs",
+    "Mixins" : [ ],
+    "Attributes" : { },
+    "Source" : {
+      "Type" : null,
+      "Location" : null,
+      "Parameters" : null
+    },
+    "Problems" : [ ],
+    "Links" : [ ]
+  }, {
+    "Name" : "bo-Classes-Back",
+    "WsId" : null,
+    "Path" : "/AppOrder/DF/Classes/bo-classes-back",
+    "Description" : "",
+    "Type" : "gs",
+    "Mixins" : [ ],
+    "Attributes" : { },
+    "Source" : {
+      "Type" : null,
+      "Location" : null,
+      "Parameters" : null
+    },
+    "Problems" : [ ],
+    "Links" : [ ]
+  }, {
+    "Name" : "bo-Classes-Front",
+    "WsId" : null,
+    "Path" : "/AppOrder/DF/Classes/bo-classes-front",
+    "Description" : "",
+    "Type" : "gs",
+    "Mixins" : [ ],
+    "Attributes" : { },
+    "Source" : {
+      "Type" : null,
+      "Location" : null,
+      "Parameters" : null
+    },
+    "Problems" : [ ],
+    "Links" : [ ]
+  }, {
+    "Name" : "bo-Course-Back",
+    "WsId" : null,
+    "Path" : "/AppOrder/DF/Course/bo-course-back",
+    "Description" : "",
+    "Type" : "gs",
+    "Mixins" : [ ],
+    "Attributes" : { },
+    "Source" : {
+      "Type" : null,
+      "Location" : null,
+      "Parameters" : null
+    },
+    "Problems" : [ ],
+    "Links" : [ ]
+  }, {
+    "Name" : "bo-Course-Front",
+    "WsId" : null,
+    "Path" : "/AppOrder/DF/Course/bo-course-front",
+    "Description" : "",
+    "Type" : "gs",
+    "Mixins" : [ ],
+    "Attributes" : { },
+    "Source" : {
+      "Type" : null,
+      "Location" : null,
+      "Parameters" : null
+    },
+    "Problems" : [ ],
+    "Links" : [ ]
+  }, {
+    "Name" : "bo-SelectCourse-Back",
+    "WsId" : null,
+    "Path" : "/AppOrder/DF/SelectCourse/bo-selectcourse-back",
+    "Description" : "",
+    "Type" : "gs",
+    "Mixins" : [ ],
+    "Attributes" : { },
+    "Source" : {
+      "Type" : null,
+      "Location" : null,
+      "Parameters" : null
+    },
+    "Problems" : [ ],
+    "Links" : [ ]
+  }, {
+    "Name" : "bo-SelectCourse-Front",
+    "WsId" : null,
+    "Path" : "/AppOrder/DF/SelectCourse/bo-selectcourse-front",
+    "Description" : "",
+    "Type" : "gs",
+    "Mixins" : [ ],
+    "Attributes" : { },
+    "Source" : {
+      "Type" : null,
+      "Location" : null,
+      "Parameters" : null
+    },
+    "Problems" : [ ],
+    "Links" : [ ]
+  } ],
+  "RelaSUCodeSet" : [ ]
+}

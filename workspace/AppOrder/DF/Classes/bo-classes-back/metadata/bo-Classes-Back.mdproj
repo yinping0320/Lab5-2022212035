@@ -1,0 +1,38 @@
+{
+  "NameSpace" : "Inspur.GS.AppOrder.DF.Classes.Classes.Back",
+  "Name" : "bo-Classes-Back",
+  "ProjectFileName" : "bo-Classes-Back.mdproj",
+  "ProjectPath" : "AppOrder/DF/Classes/bo-classes-back/metadata",
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.AppOrder.DF.Classes.Classes.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ {
+    "Name" : "Inspur.GS.AppOrder.DF.Student.Student.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  } ],
+  "ProjectRefs" : [ {
+    "Name" : "Inspur.GS.AppOrder.DF.Student.Student.Back",
+    "ProjectPath" : "../../../../AppOrder/DF/Student/bo-student-back"
+  } ],
+  "ExternalRefs" : null,
+  "MdpkgRefs" : null,
+  "MavenPackageRefs" : [ {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "apporder-df-student-student-back-api",
+    "Version" : "m0.1.0-SNAPSHOT",
+    "MetadataPackageName" : "Inspur.GS.AppOrder.DF.Student.Student.Back"
+  } ],
+  "CsprojAssemblyName" : "Inspur.GS.AppOrder.DF.Classes.Classes.Back",
+  "ID" : "aeedbbda-5ff4-41e5-b4f6-cc4c37711ed3"
+}

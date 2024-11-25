@@ -1,0 +1,15 @@
+{
+  "AppCode" : "AppOrder",
+  "ServiceUnitCode" : "DF",
+  "BizobjectCode" : "Employee",
+  "BizobjectID" : "9840e5b7-e61c-bb93-ad7a-e477b36521de",
+  "ProjectNameSpace" : "Inspur.GS.AppOrder.DF.Employee.Employee.Front",
+  "SuDeploymentPath" : "apps/apporder/df",
+  "MetadataProjectName" : "bo-Employee-Front",
+  "MetadataPackageName" : "Inspur.GS.AppOrder.DF.Employee.Employee.Front",
+  "SuConfigDeploymentPath" : null,
+  "ProjectType" : "frontend",
+  "ProjectExtendItem" : [ {
+    "codelanguage" : "java"
+  } ]
+}
